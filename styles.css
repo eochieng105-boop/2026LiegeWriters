@@ -1,3 +1,14 @@
+/* Yellow button style for Send Message */
+.btn-yellow {
+    background-color: #FFD600;
+    color: #222;
+    border: none;
+    transition: background 0.2s;
+}
+.btn-yellow:hover, .btn-yellow:focus {
+    background-color: #FFC400;
+    color: #111;
+}
 /* ========================================
    LiegeWriters - CSS Stylesheet
    ======================================== */
