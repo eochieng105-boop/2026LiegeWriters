@@ -105,10 +105,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ========================================
+<<<<<<< HEAD
     // SEND MESSAGE BUTTONS - SMS (handled by href)
     // ========================================
     // SMS links are now handled directly by the href attribute in HTML
     // Both .btn-yellow and .btn-chat buttons use sms: protocol
+=======
+    // SEND MESSAGE BUTTONS - OPEN WHATSAPP
+    // ========================================
+    const chatBtn = document.querySelector('.btn-chat');
+
+    chatBtn.addEventListener('click', () => {
+        window.open('https://wa.me/254757214551', '_blank');
+    });
+>>>>>>> 741288bfc02d7ffd5d6a24fcd1100afa7738f5f2
 
     // Contact form mailto submission
     contactForm.addEventListener('submit', (e) => {
